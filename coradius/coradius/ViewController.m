@@ -32,7 +32,7 @@
 //    imgV.image = image;
 //    [self.view addSubview:imgV];
     
-    NSString *str = @"hey what's up bro";
+    NSString *str = @"gay gay gay";
     NSLog(@"%@",str);
     
     UIImageView * imageview = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 150, 150)];
