@@ -33,6 +33,7 @@
     [self.view addSubview:imgV];
     
     NSString *str = @"fuck u it's just stence";
+    NSString *str1 = @"222333344445555";
 
     NSLog(@"%@",str);
     
