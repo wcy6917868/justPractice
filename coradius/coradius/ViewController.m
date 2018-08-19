@@ -19,18 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    UIImageView *imgV = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
-//    imgV.backgroundColor = [UIColor blackColor
-//                            ];
-//    UIImage *image = [UIImage imageNamed:@"XueSheng-ShouYe-ShangKeLieBiao-BeiJingTu@2x"];
-//    UIGraphicsBeginImageContextWithOptions(imgV.bounds.size, NO, 0);
-//   // [[UIBezierPath bezierPathWithOvalInRect:imgV.bounds]addClip];
-//    [[UIBezierPath bezierPathWithRoundedRect:imgV.bounds cornerRadius:20]addClip];
-//    [imgV drawRect:imgV.bounds];
-//    imgV.image = UIGraphicsGetImageFromCurrentImageContext();
-//    UIGraphicsEndImageContext();
-//    imgV.image = image;
-//    [self.view addSubview:imgV];
+    UIImageView *imgV = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
+    imgV.backgroundColor = [UIColor blackColor
+                            ];
+    UIImage *image = [UIImage imageNamed:@"XueSheng-ShouYe-ShangKeLieBiao-BeiJingTu"];
+    UIGraphicsBeginImageContextWithOptions(imgV.bounds.size, NO, 0);
+   // [[UIBezierPath bezierPathWithOvalInRect:imgV.bounds]addClip];
+    [[UIBezierPath bezierPathWithRoundedRect:imgV.bounds cornerRadius:20]addClip];
+    [imgV drawRect:imgV.bounds];
+    imgV.image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    imgV.image = image;
+    [self.view addSubview:imgV];
     
     
     UIImageView * imageview = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 150, 150)];
