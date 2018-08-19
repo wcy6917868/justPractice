@@ -32,6 +32,8 @@
 //    imgV.image = image;
 //    [self.view addSubview:imgV];
     
+    NSString *str = @"hey what's up bro";
+    NSLog(@"%@",str);
     
     UIImageView * imageview = [[UIImageView alloc]initWithFrame:CGRectMake(50, 100, 150, 150)];
     imageview.center = self.view.center;
